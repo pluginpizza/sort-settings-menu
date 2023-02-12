@@ -2,10 +2,10 @@
 /**
  * Admin functionality
  *
- * @package SortedSettingsMenu
+ * @package SortSettingsMenu
  */
 
-namespace SortedSettingsMenu;
+namespace SortSettingsMenu;
 
 // Sort the WordPress admin 'Settings' menu alphabetically.
 add_action( 'admin_menu', __NAMESPACE__ . '\sort_admin_submenu_items' );
