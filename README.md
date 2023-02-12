@@ -1,6 +1,6 @@
 ## Sort Settings Menu WordPress Plugin
 
-The "Settings" section in the WordPress admininistration menu can become confusing when there are multiple plugins installed. Sort Settings Menu helps by organizing the "Settings" section in alphabetical order, making it easier to find the correct settings page.
+The "Settings" section in the WordPress admininistration menu can become confusing when there are multiple plugins installed. Sort Settings Menu helps by organizing the "Settings" sub-level menu items in alphabetical order, making it easier to find the correct settings page.
 
 To use Sort Settings Menu, there are only two things you need to do: install and activate the plugin. Sort Settings Menu automatically sorts the "Settings" menu in alphabetical order without any extra configuration. Sort Settings Menu also works great as a [must-use plugin](https://wordpress.org/documentation/article/must-use-plugins/).
 
