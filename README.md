@@ -8,11 +8,11 @@ To use Sort Settings Menu, there are only two things you need to do: install and
 
 Sort Settings Menu only sorts the "Settings" section and does not have any options to sort other parts of the administration menu.
 
-A `sort_settings_menu` [filter](https://developer.wordpress.org/plugins/hooks/filters/) is available that allows additional menus to be sorted via code. For example, if you add the following code to your theme's `functions.php` file or to a plugin, both the "Settings" and "Tools" sections will be sorted alphabetically.
+A `functions_file_sort_settings_menu` [filter](https://developer.wordpress.org/plugins/hooks/filters/) is available that allows additional menus to be sorted via code. For example, if you add the following code to your theme's `functions.php` file or to a plugin, both the "Settings" and "Tools" sections will be sorted alphabetically.
 
 ```
 // Organize the "Settings" and "Tools" menu in alphabetical order.
-add_filter( 'sort_settings_menu', function( $menus ) {
+add_filter( 'functions_file_sort_settings_menu', function( $menus ) {
 	return array( 'options-general.php', 'tools.php' );
 } );
 ```

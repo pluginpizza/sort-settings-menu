@@ -8,7 +8,7 @@
  * Plugin URI: https://github.com/functionsfile/sort-settings-menu
  * License: GPLv3+
  *
- * @package SortSettingsMenu
+ * @package FunctionsFile\SortSettingsMenu
  */
 
 if ( is_admin() ) {
