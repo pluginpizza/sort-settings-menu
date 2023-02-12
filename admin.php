@@ -7,11 +7,11 @@
 
 namespace SortSettingsMenu;
 
-// Sort the WordPress admin 'Settings' menu alphabetically.
+// Arrange the items in the "Settings" menu of the WordPress admin in alphabetical order.
 add_action( 'admin_menu', __NAMESPACE__ . '\sort_admin_submenu_items' );
 
 /**
- * Sort the WordPress admin 'Settings' menu alphabetically.
+ * Arrange the items in the "Settings" menu of the WordPress admin in alphabetical order.
  *
  * @return void
  */
@@ -24,9 +24,9 @@ function sort_admin_submenu_items() {
 	}
 
 	/**
-	 * Allows filtering the admin menu items that should be sorted alphabetically.
+	 * Allows filtering the admin menu items that should be sorted in alphabetical order.
 	 *
-	 * By default, only the 'Settings' menu is sorted. Return an empty array
+	 * By default only the "Settings" menu is sorted. Return an empty array
 	 * to sort all menus alphabetically.
 	 *
 	 * @var array $menus The menus to sort alphabetically.
