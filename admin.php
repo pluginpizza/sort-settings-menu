@@ -32,7 +32,7 @@ function sort_admin_submenu_items() {
 	 * @var array $menus The menus to sort alphabetically.
 	 */
 	$menus = apply_filters(
-		'sorted_settings_menu',
+		'sort_settings_menu',
 		array( 'options-general.php' )
 	);
 
