@@ -16,6 +16,10 @@ The "Settings" section in the WordPress admininistration menu can become confusi
 
 To use Sort Settings Menu, there are only two things you need to do: install and activate the plugin. Sort Settings Menu automatically sorts the "Settings" menu in alphabetical order without any extra configuration. Sort Settings Menu also works great as a [must-use plugin](https://wordpress.org/documentation/article/must-use-plugins/).
 
+### Bug Reports
+
+Do you want to report a bug or suggest a feature for Sort Settings Menu? Best to do so in the [Sort Settings Menu repository on GitHub](https://github.com/functionsfile/automatic-login/).
+
 == Installation ==
 
 To use Sort Settings Menu, there are only two things you need to do: install and activate the plugin. Sort Settings Menu automatically sorts the "Settings" menu in alphabetical order without any extra configuration. Sort Settings Menu also works great as a [must-use plugin](https://wordpress.org/documentation/article/must-use-plugins/).
