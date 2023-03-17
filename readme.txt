@@ -52,6 +52,16 @@ add_filter( 'functions_file_sort_settings_menu', function( $menus ) {
 
 == Changelog ==
 
+= 1.0.2 =
+Release Date: Mar 17, 2023
+
+- Version bump to fix incorrect deploy.
+
+= 1.0.1 =
+Release Date: Mar 17, 2023
+
+- Run the sorting function later to fix some menu items not being sorted alphabetically.
+
 = 1.0 =
 Release Date: February 12, 2023
 
