@@ -8,7 +8,7 @@
 namespace FunctionsFile\SortSettingsMenu;
 
 // Arrange the items in the "Settings" menu of the WordPress admin in alphabetical order.
-add_action( 'admin_menu', __NAMESPACE__ . '\sort_admin_submenu_items' );
+add_action( 'admin_menu', __NAMESPACE__ . '\sort_admin_submenu_items', 999 );
 
 /**
  * Arrange the items in the "Settings" menu of the WordPress admin in alphabetical order.
