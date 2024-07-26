@@ -3,7 +3,7 @@
  * Plugin Name: Sort Settings Menu
  * Description: Arrange the items in the "Settings" menu of the WordPress admin in alphabetical order.
  * Version: 1.1.0
- * Author: Functions File, Barry Ceelen
+ * Author: Plugin Pizza
  * Author URI: https://github.com/functionsfile
  * Plugin URI: https://github.com/functionsfile/sort-settings-menu
  * License: GPLv3+
