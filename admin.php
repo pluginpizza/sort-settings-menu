@@ -2,10 +2,10 @@
 /**
  * Admin functionality
  *
- * @package SortSettingsMenu
+ * @package PluginPizza\SortSettingsMenu
  */
 
-namespace FunctionsFile\SortSettingsMenu;
+namespace PluginPizza\SortSettingsMenu;
 
 // Arrange the items in the "Settings" menu of the WordPress admin in alphabetical order.
 add_action( 'admin_menu', __NAMESPACE__ . '\sort_admin_submenu_items', 999 );
@@ -34,6 +34,14 @@ function sort_admin_submenu_items() {
 	$menus = apply_filters(
 		'functions_file_sort_settings_menu',
 		array( 'options-general.php' )
+	);
+
+	// Deprecated.
+	$menus = apply_filters_deprecated(
+		'functions_file_sort_settings_menu',
+		array( $menus ),
+		'1.1.0',
+		'functions_file_sort_settings_menu'
 	);
 
 	if ( ! is_array( $menus ) ) {

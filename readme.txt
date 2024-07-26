@@ -1,10 +1,10 @@
 === Sort Settings Menu ===
-Contributors: functionsfile, barryceelen
+Contributors: pluginpizza, barryceelen, functionsfile
 Tags: admin, settings
 Requires at least: 4.6
 Tested up to: 6.4
 Requires PHP: 5.3
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv3+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -18,7 +18,7 @@ To use Sort Settings Menu, there are only two things you need to do: install and
 
 ### Bug Reports
 
-Do you want to report a bug or suggest a feature for Sort Settings Menu? Best to do so in the [Sort Settings Menu repository on GitHub](https://github.com/functionsfile/automatic-login/).
+Do you want to report a bug or suggest a feature for Sort Settings Menu? Best to do so in the [Sort Settings Menu repository on GitHub](https://github.com/pluginpizza/sort-settings-menu/).
 
 == Installation ==
 
@@ -41,16 +41,21 @@ To use Sort Settings Menu, there are only two things you need to do: install and
 
 Sort Settings Menu only sorts the "Settings" section and does not have any options to sort other parts of the administration menu.
 
-A `functions_file_sort_settings_menu` [filter](https://developer.wordpress.org/plugins/hooks/filters/) is available that allows additional menus to be sorted via code. For example, if you add the following code to your theme's `functions.php` file or to a plugin, both the "Settings" and "Tools" sections will be sorted alphabetically.
+A `pluginpizza_settings_menu` [filter](https://developer.wordpress.org/plugins/hooks/filters/) is available that allows additional menus to be sorted via code. For example, if you add the following code to your theme's `functions.php` file or to a plugin, both the "Settings" and "Tools" sections will be sorted alphabetically.
 
 `
 // Organize the "Settings" and "Tools" menu in alphabetical order.
-add_filter( 'functions_file_sort_settings_menu', function( $menus ) {
+add_filter( 'pluginpizza_sort_settings_menu', function( $menus ) {
 	return array( 'options-general.php', 'tools.php' );
 } );
 `
 
 == Changelog ==
+
+= 1.1.0 =
+Release Date: Jul 26, 2024
+
+- Deprecate the `functions_file_sort_settings_menu` in favor of `pluginpizza_sort_settings_menu`.
 
 = 1.0.2 =
 Release Date: Mar 17, 2023

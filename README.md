@@ -20,11 +20,11 @@ Sort Settings Menu can be added as a dependency to your project via the [wpackag
 
 Sort Settings Menu only sorts the "Settings" section and does not have any options to sort other parts of the administration menu.
 
-A `functions_file_sort_settings_menu` [filter](https://developer.wordpress.org/plugins/hooks/filters/) is available that allows additional menus to be sorted via code. For example, if you add the following code to your theme's `functions.php` file or to a plugin, both the "Settings" and "Tools" sections will be sorted alphabetically.
+A `pluginpizza_sort_settings_menu` [filter](https://developer.wordpress.org/plugins/hooks/filters/) is available that allows additional menus to be sorted via code. For example, if you add the following code to your theme's `functions.php` file or to a plugin, both the "Settings" and "Tools" sections will be sorted alphabetically.
 
 ```
 // Organize the "Settings" and "Tools" menu in alphabetical order.
-add_filter( 'functions_file_sort_settings_menu', function( $menus ) {
+add_filter( 'pluginpizza_sort_settings_menu', function( $menus ) {
 	return array( 'options-general.php', 'tools.php' );
 } );
 ```
