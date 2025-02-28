@@ -32,7 +32,7 @@ function sort_admin_submenu_items() {
 	 * @var array $menus The menus to sort alphabetically.
 	 */
 	$menus = apply_filters(
-		'functions_file_sort_settings_menu',
+		'pluginpizza_sort_settings_menu',
 		array( 'options-general.php' )
 	);
 
@@ -40,8 +40,8 @@ function sort_admin_submenu_items() {
 	$menus = apply_filters_deprecated(
 		'functions_file_sort_settings_menu',
 		array( $menus ),
-		'1.1.0',
-		'functions_file_sort_settings_menu'
+		'1.1.1',
+		'pluginpizza_sort_settings_menu'
 	);
 
 	if ( ! is_array( $menus ) ) {

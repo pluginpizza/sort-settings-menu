@@ -4,7 +4,7 @@ Tags: admin, settings
 Requires at least: 4.6
 Tested up to: 6.7
 Requires PHP: 5.3
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv3+
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -51,6 +51,11 @@ add_filter( 'pluginpizza_sort_settings_menu', function( $menus ) {
 `
 
 == Changelog ==
+
+= 1.1.1 =
+Release Date: Feb 28, 2025
+
+- Fix deprecating the `functions_file_sort_settings_menu` in favor of `pluginpizza_sort_settings_menu`. Props [@cvladan](https://wordpress.org/support/topic/hook-naming/)
 
 = 1.1.0 =
 Release Date: Jul 26, 2024
