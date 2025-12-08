@@ -50,11 +50,11 @@ function sort_admin_submenu_items() {
 
 	foreach ( array_keys( $submenu ) as $key ) {
 
-		if ( empty( $menus ) || is_array( $menus ) && in_array( $key, $menus, true ) ) {
+		if ( empty( $menus ) || ( is_array( $menus ) && in_array( $key, $menus, true ) ) ) {
 
 			usort(
 				$submenu[ $key ],
-				function( $item_1, $item_2 ) {
+				function ( $item_1, $item_2 ) {
 					return $item_1[0] <=> $item_2[0];
 				}
 			);
