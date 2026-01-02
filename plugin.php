@@ -11,6 +11,8 @@
  * @package PluginPizza\SortSettingsMenu
  */
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 if ( is_admin() ) {
 
 	if ( file_exists( plugin_dir_path( __FILE__ ) . 'admin.php' ) ) {
