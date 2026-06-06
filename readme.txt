@@ -2,7 +2,7 @@
 Contributors: pluginpizza, barryceelen, functionsfile
 Tags: admin, settings
 Requires at least: 4.6
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.3
 Stable tag: 1.1.1
 License: GPLv3+
