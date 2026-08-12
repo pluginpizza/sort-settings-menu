@@ -14,7 +14,9 @@ Sort Settings Menu is hosted on the [WordPress plugin directory](https://wordpre
 
 ### Composer
 
-Sort Settings Menu can be added as a dependency to your project via the [wpackagist composer repository](https://wpackagist.org/search?q=sort-settings-menu).
+Sort Settings Menu can be added as a dependency to your project via the [wp packages composer repository](https://wp-packages.org/packages/wp-plugin/sort-settings-menu).
+
+`composer require wp-plugin/sort-settings-menu`
 
 ### Can Sort Settings Menu alphabetically sort other admin menus?
 
